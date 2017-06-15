@@ -39,20 +39,20 @@
 # puts option == 1 ? "Your numbers added are #{add(num1, num2)}" : (option == 2 ? "Your numbers subtracted are #{sub(num1, num2)}" : (option == 3 ? "Your numbers multiplied are #{multiply(num1, num2)}" : (option == 4 ? "Your numbers divided are #{divide(num1, num2)}" : "Sorry that's not an option")))
 
 
-# #-----------------------------------------------------------------------------------#
+# # #-----------------------------------------------------------------------------------#
 
 
-# # 2. The Remainder Challenge!
+# # # 2. The Remainder Challenge!
 
-# # In Ruby 6 / 4 == 1.
+# # # In Ruby 6 / 4 == 1.
 
-# # But what if we want the remainder also?
+# # # But what if we want the remainder also?
 
-# # Write a program that asks for two (2) Integers, divides the first by the second and returns the result including the remainder.
+# # # Write a program that asks for two (2) Integers, divides the first by the second and returns the result including the remainder.
 
-# # If either of the numbers is not an Integer, then don't accept the number and ask again.
+# # # If either of the numbers is not an Integer, then don't accept the number and ask again.
 
-# # Do not accept zero (0) as a number.
+# # # Do not accept zero (0) as a number.
 
 
 
@@ -102,19 +102,19 @@
 
 # puts get_remainder(num1, num2)
 
-# #-----------------------------------------------------------------------------------#
+#-----------------------------------------------------------------------------------#
 
-# # 3.Build-a-Quiz
-# # Build a quiz program that gets a few inputs from the user including:
-# # number of questions
-# # questions
-# # answers
-# # Then clear the screen and begin the quiz. Keep score!
-# # Back
+# 3.Build-a-Quiz
+# Build a quiz program that gets a few inputs from the user including:
+# number of questions
+# questions
+# answers
+# Then clear the screen and begin the quiz. Keep score!
+# Back
 
 
 
-# test_hash = {}
+# question_hash = {}
 
 # def quiz_builder
 # 	new_hash = {}
@@ -152,8 +152,11 @@
 # 			score += 1
 # 	else
 # 			puts "Sorry, the answer is #{a}"
-# 	end				
+# 	end			
+
+
+# 	# puts user == a ? ("Correct!"; score +=1) : "Sorry, the answer is #{a}"	
 # end	
 
-# puts "Your final score is #{score} out of #{length} questions correct."
+#  puts "Your final score is #{score} out of #{length} questions correct."
 
